@@ -1,0 +1,46 @@
+.case-overview {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.case-demographics {
+    border: 1px solid black;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.case-details {
+    border: 1px solid black;
+    padding: 5px;
+    flex: 3;
+    overflow:auto;
+    margin-left: 5px;
+
+    p {
+        // placeholder size to represent a long detailed case
+        height: 2000px;
+    }
+}
+
+.case-list {
+    border: 1px solid black;
+    padding: 5px;
+    flex: 1;
+    overflow:auto;
+    
+    h3 {
+        margin: 5px 0px 10px 0px;
+    }
+
+    .case-list-item {
+        border: 1px solid black;
+        padding: 5px;
+        margin: 5px 0px;
+        font-weight: bold;
+
+        label {
+            display: block;
+        }
+    }
+}
