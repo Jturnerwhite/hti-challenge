@@ -11,7 +11,8 @@ You are working on a case management application that has a “case overview” 
 
  ### Assumptions / Notes
  - I'm assuming the relationship for a case to be something like;  There is an aggregate case file detailing information about what is going on.  This aggregate is from various sources as described, each with their own specific case which contains a slice of the information.
- - I'm assuming that the overall case details, that is supplemented from these multiple cases, is aggregated prior to reaching the front end. And that the point of this is not to conceptualize how to aggregate the data itself.
+ - I do wish however, that the relationship was more clearly defined as I am not terribly confident I understand.
+ - I'm assuming that the overall case details, that is created from these multiple cases, is aggregated prior to reaching the front end. And that the point of this is not to conceptualize how to aggregate the data itself.  Otherwise, I imagine that would have been stated.
  - Really rough, doesn't look pretty
  - With more time there would be: styling, filter options for the case list, example data to put into the details panel, demographics placeholder data.
  - My commit details show I made a commit with the initial spinup of the React app, but I did not start work immediately.  I tried to made a commit called "cleanup" as the start of the work.
@@ -21,3 +22,8 @@ You are working on a case management application that has a “case overview” 
 2. Be sure to have NodeJS and NPM installed globally
 3. Run `npm i` and then `npm start` when ready
 4. A window should automatically open after a moment, but if it does not please go to http://localhost:3000
+
+
+### Similar Projects / Challenges
+I completed a similar challenge in roughly a 2-3 hour time span here:
+https://github.com/Jturnerwhite/tsl-talent-calc
